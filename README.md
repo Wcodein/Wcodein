@@ -16,22 +16,11 @@
 
 ---
 
-### 💾 `~/whoami`
+<div align="center">
 
-```console
-$ whois Wcodein
-───────────────────────────────────────────────────────────────
-  Name       : Moh
-  Location   : Toulouse, FR  →  Chicoutimi, QC 🍁
-  Role       : CS student @ IUT Toulouse (BUT Informatique)
-               → heading to UQAC
-  Focus      : reverse engineering · memory hacks · emulators
-  Targets    : Minecraft · Roblox · Fortnite · FiveM
-  Learning   : Rust · osdev · anti-cheat internals
-  Status     : online — probably debugging something
-───────────────────────────────────────────────────────────────
-$ _
-```
+<img src="./assets/whoami.svg" alt="Terminal: whois Wcodein" width="760" />
+
+</div>
 
 ### ⚔️ Arsenal
 
@@ -82,9 +71,9 @@ $ _
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Wcodein/Wcodein/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Wcodein/Wcodein/output/github-contribution-grid-snake.svg" />
-  <img alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/Wcodein/Wcodein/output/github-contribution-grid-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Wcodein/Wcodein/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Wcodein/Wcodein/output/github-snake.svg" />
+  <img alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/Wcodein/Wcodein/output/github-snake.svg" />
 </picture>
 
 </div>
