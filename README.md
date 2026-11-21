@@ -1,80 +1,78 @@
-<!-- ===================== BANNIÈRE ===================== -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:6a00ff,100:00e5ff&height=200&section=header&text=Wcodein&fontSize=70&fontColor=ffffff&fontAlignY=38&desc=Dev%20%E2%80%A2%20Gamer%20%E2%80%A2%20Reverse%20Engineering&descAlignY=60&animation=fadeIn" />
-</p>
+<div align="center">
 
-<!-- ===================== TEXTE ANIMÉ ===================== -->
-<p align="center">
-  <a href="https://github.com/wcodein">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00E5FF&center=true&vCenter=true&width=600&lines=Salut+%F0%9F%91%8B+moi+c'est+Moh;D%C3%A9veloppeur+d'outils+de+triche+en+tout+genre;Java+%E2%80%A2+Python+%E2%80%A2+C%2B%2B+%E2%80%A2+SQL;BUT+Informatique+%E2%80%94+Toulouse+%E2%9E%9C+Qu%C3%A9bec+%F0%9F%87%A8%F0%9F%87%A6" alt="Typing SVG" />
-  </a>
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7AA2F7,100:BB9AF7&height=180&section=header&text=Moh&fontSize=72&fontColor=ffffff&animation=fadeIn&fontAlignY=40" alt="Banner reading Moh" />
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=wcodein&label=Visites&color=6a00ff&style=for-the-badge" />
-  <img src="https://img.shields.io/github/followers/wcodein?label=Followers&style=for-the-badge&color=00e5ff&labelColor=0d1117" />
-</p>
+<a href="https://github.com/Wcodein">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=800&color=7AA2F7&center=true&vCenter=true&width=720&lines=Hi%2C+I'm+Moh.;Reverse+engineering+games+since+before+exams.;Toulouse+%E2%86%92+Qu%C3%A9bec+%F0%9F%8D%81" alt="Animated intro" />
+</a>
+
+</div>
 
 ---
 
-### 🕹️ À propos
+### whoami
 
-```java
-public class Wcodein {
-    String nom       = "Moh";
-    String role      = "Développeur d'outils de triche en tout genre";
-    String etudes    = "BUT Informatique — IUT Paul Sabatier (Toulouse)";
-    String prochain  = "Double diplôme à l'UQAC 🇨🇦";
-    String[] stack   = {"Java", "Python", "C++", "HTML", "SQL", "un peu de tout"};
-    String devise    = "Si ça tourne, ça se modifie.";
+French CS student at **IUT Toulouse (BUT Informatique)**, soon trading baguettes for poutine at **UQAC, Québec**. I spend most of my free cycles taking games apart to see what makes them tick — Minecraft, Roblox, Fortnite, FiveM — internal, external, emulator-side, whatever the target asks for.
+
+Currently learning **Rust**, because manual memory management should at least *try* to love me back.
+
+### Moh.rs
+
+```rust
+struct Dev {
+    alias:    &'static str,
+    location: &'static str,
+    focus:    [&'static str; 3],
+    curious:  Vec<&'static str>,
+    status:   &'static str,
+}
+
+impl Dev {
+    fn new() -> Self {
+        Self {
+            alias:    "Moh",
+            location: "Toulouse -> Chicoutimi",
+            focus:    ["reverse engineering", "memory hacks", "emulators"],
+            curious:  vec!["rust", "osdev", "anti-cheat internals"],
+            status:   "BUT Informatique, headed to UQAC",
+        }
+    }
 }
 ```
 
-- 🎮 Je passe mon temps entre le code et les jeux
-- 🔧 J'aime comprendre comment les programmes marchent… et les détourner
-- 🌱 En ce moment : je progresse en C++ et en reverse engineering
-- 💬 Parle-moi de : jeux, outils, automatisation, projets persos
+### Toolbox
+
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=cpp,cs,rust,py,lua,java,bash,git,visualstudio,vim,linux,windows&perline=12" alt="Languages and tools: C++, C#, Rust, Python, Lua, Java, Bash, Git, Visual Studio, Vim, Linux, Windows" />
+  </a>
+</p>
+
+<p align="left">
+  <img src="https://img.shields.io/badge/reverse_engineering-1a1b26?style=for-the-badge&labelColor=1a1b26&color=7AA2F7" alt="Reverse engineering" />
+  <img src="https://img.shields.io/badge/IDA-1a1b26?style=for-the-badge&labelColor=1a1b26&color=BB9AF7" alt="IDA" />
+  <img src="https://img.shields.io/badge/Ghidra-1a1b26?style=for-the-badge&labelColor=1a1b26&color=BB9AF7" alt="Ghidra" />
+  <img src="https://img.shields.io/badge/x64dbg-1a1b26?style=for-the-badge&labelColor=1a1b26&color=BB9AF7" alt="x64dbg" />
+  <img src="https://img.shields.io/badge/Cheat_Engine-1a1b26?style=for-the-badge&labelColor=1a1b26&color=BB9AF7" alt="Cheat Engine" />
+  <img src="https://img.shields.io/badge/x86--64_ASM-1a1b26?style=for-the-badge&labelColor=1a1b26&color=7AA2F7" alt="x86-64 Assembly" />
+</p>
+
+### Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Wcodein&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="Wcodein's GitHub stats" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Wcodein&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Most-used languages" height="165" />
+</p>
+
+<details>
+<summary><b>+ a little more</b></summary>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=Wcodein&theme=tokyonight&hide_border=true" alt="GitHub contribution streak" />
+</p>
+
+</details>
 
 ---
 
-### 🛠️ Stack
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=java,python,cpp,c,html,css,js,mysql&theme=dark" />
-  <br/>
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,idea,visualstudio,linux,windows,apple&theme=dark" />
-</p>
-
----
-
-### 📊 Stats
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=wcodein&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wcodein&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=wcodein&theme=tokyonight&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=wcodein&theme=tokyo-night&hide_border=true&area=true" width="95%" />
-</p>
-
----
-
-### 🐍 Contributions
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wcodein/wcodein/output/github-snake-dark.svg" />
-    <img src="https://raw.githubusercontent.com/wcodein/wcodein/output/github-snake.svg" alt="snake" />
-  </picture>
-</p>
-
----
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00e5ff,50:6a00ff,100:0d1117&height=120&section=footer" />
-</p>
+<p align="center"><em>"it's not a bug — it's a feature flag, in memory."</em></p>
